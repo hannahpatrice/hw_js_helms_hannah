@@ -31,12 +31,22 @@ numba('university');
 
 //6c
 
-function display(favMovie) {
+//function display(favMovie) {
+	//console.log(favMovie + ' is a fantastic movie.')
+//}
+
+function display() {
 	console.log(favMovie + ' is a fantastic movie.')
+	return
 }
 
-function inception(display, favMovie){
+function inception (display, favMovie){
 	display(favMovie);
 }
 
 inception('', 'Shrek 2');
+
+display();
+
+
+//console.log(favMovie + ' is a fantastic movie.')
