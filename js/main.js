@@ -1,23 +1,42 @@
-var president1 = {firstName: 'Donald', lastName: 'Trump', termLength: '8 months', party: 'Republican', yearsOfPresidency: 0};
+//6a
 
-var president2 = {firstName: 'Barrack', lastName: 'Obama', termLength: '8 Years', party: 'Democratic', yearsOfPresidency: 8};
+function howdy() {
+	console.log('Hannah Helms says hi!')
+	return
+}
 
-var president3 = {firstName: 'George W.', lastName: 'Bush', termLength: '8 Years', party: 'Republican', yearsOfPresidency: 8};
+howdy();
 
-var president4 = {firstName: 'William', lastName: 'Clinton', termLength: '8 Years', party: 'Democratic', yearsOfPresidency: 8};
+//6b
 
-var president5 = {firstName: 'George H. W.', lastName: 'Bush', termLength: '4 Years', party: 'Republican', yearsOfPresidency: 4};
+function numba(string) {
+//var numba = function(string);
 
-var presidents = ['president1', 'president2', 'president3', 'president4', 'president5'];
+	if (string.length < 7) {
+		console.log ("What a short little word!")
+	}
 
-console.log(president3.firstName + ' ' + president3.lastName);
+	if  (string.length > 7) {
+		console.log ("I'm sorry, but that's too many to count.")
+	}
 
-console.log(president1.firstName + ' ' + president1.lastName);
+	if (string.length = 7) {
+		console.log ("7, what a perfect choice!")
+	}
+}
 
-console.log(president2.firstName + ' ' + president2.lastName);
+numba(7);
+numba('seventy');
+numba('university');
 
-console.log(president4.firstName + ' ' + president4.lastName);
+//6c
 
-console.log(president5.firstName + ' ' + president5.lastName);
+function display(favMovie) {
+	console.log(favMovie + ' is a fantastic movie.')
+}
 
-console.log(presidents.length);
+function inception(display, favMovie){
+	display(favMovie);
+}
+
+inception('', 'Shrek 2');
